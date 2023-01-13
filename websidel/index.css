@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(80, 79, 79);
+    font-size: 18px;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    width: 85%;
+    overflow: hidden;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #FD8A8A; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+    .item-1{
+        /* background: #F1F7B5; */
+       
+        margin-top: 20px, auto auto 20px;
+        overflow: hidden;
+    } 
+    
+    
+    .item-2{
+        
+        
+        
+        margin-top: 20px, auto auto 20px;
+        overflow: hidden;
+        /* background: #A8D1D1; */
+        
+    }        
+    
+    .item-3{
+        
+        margin-top: 20px, auto auto 20px;
+        overflow: hidden;
+        /* background: #9EA1D4; */
+        
+        
+    }        
+    
+    .item-4{
+        
+        
+        margin-top: 20px, auto auto 20px;
+        overflow: hidden;
+        /* border: 2px solid white ; */
+    
+      
+        /* background: #86C8BC; */
+       
+
+    }      
+
+    nav.item-1:hover,
+    nav.item-2:hover, 
+    nav.item-3:hover, 
+    nav.item-4:hover {
+        /* background-color: rgb(230, 200, 209, 0.5); */
+    
+        color: aqua;
+        transition: 0.5s;
+        
+      }    
+      
+      main{
+          display: flex;
+          
+        }      
+        .container2{
+            display: flex;
+            flex-direction: row;
+            /* background-color: #FD8A8A; */
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 600px;
+        }
+     
+            .item-1{
+                /* background: #F1F7B5; */
+                
+            } 
+            
+            
+     
+                
+              
+      
+               
+        
+             
+        
+            .animate__animated:hover {
+                /* background-color: rgb(230, 200, 209, 0.5); */
+                color: aqua;
+                transition: 0.5s;
+                
+              }    
+    h1.animate__animated{
+        width: 100px;
+        background-color: rgb(177, 36, 144);
+        overflow: -moz-hidden-unscrollable;
+    }          
+
+
+section{
+    display: flexbox;
+}
